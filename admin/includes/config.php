@@ -2,8 +2,8 @@
 // DB credentials.
 define('DB_HOST','localhost');
 define('DB_USER','root');
-define('DB_PASS','12345');
-define('DB_NAME','no_limits_india');
+define('DB_PASS','');
+define('DB_NAME','tms');
 // Establish database connection.
 try
 {
@@ -13,3 +13,4 @@ catch (PDOException $e)
 {
 exit("Error: " . $e->getMessage());
 }
+?>
